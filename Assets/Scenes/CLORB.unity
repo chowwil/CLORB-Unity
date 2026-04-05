@@ -3566,7 +3566,7 @@ MonoBehaviour:
   triggerName: PlayDeath
   delayBeforeFade: 0.5
   fadeDuration: 1
-  textReadingTime: 5
+  textReadingTime: 3
 --- !u!1 &348308793
 GameObject:
   m_ObjectHideFlags: 0
@@ -8043,12 +8043,40 @@ PrefabInstance:
     m_TransformParent: {fileID: 1968262883}
     m_Modifications:
     - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1505056090}
     - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 716853113}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: StartTransitionSequence
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: GiveUpTimer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: CountdownTimer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3043732022039185218, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
       propertyPath: m_Pivot.x
@@ -8419,12 +8447,40 @@ PrefabInstance:
     m_TransformParent: {fileID: 678278108}
     m_Modifications:
     - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1009603839}
     - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1491036594}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: StartTransitionSequence
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: GiveUpTimer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: CountdownTimer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3043732022039185218, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
       propertyPath: m_Pivot.x
@@ -12143,7 +12199,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 540, y: 2145}
+  m_AnchoredPosition: {x: 540, y: 2122}
   m_SizeDelta: {x: 887.4672, y: 127.16}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1187514080
@@ -13344,12 +13400,40 @@ PrefabInstance:
     m_TransformParent: {fileID: 349106536}
     m_Modifications:
     - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1426229442}
     - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 162581357}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: StartTransitionSequence
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: GiveUpTimer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: CountdownTimer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3043732022039185218, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
       propertyPath: m_Pivot.x
@@ -14750,12 +14834,40 @@ PrefabInstance:
     m_TransformParent: {fileID: 1536708678}
     m_Modifications:
     - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 664337469}
     - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 597071524}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: StartTransitionSequence
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: GiveUpTimer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: CountdownTimer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3043732022039185218, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
       propertyPath: m_Pivot.x
@@ -22756,9 +22868,37 @@ PrefabInstance:
     m_TransformParent: {fileID: 1477985804}
     m_Modifications:
     - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 345276554}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 565492395}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: GiveUpTimer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: CountdownTimer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253722194418690371, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3043732022039185218, guid: f7add573500574a428ecfed3fc705ee9, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

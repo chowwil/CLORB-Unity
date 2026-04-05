@@ -99,4 +99,22 @@ public class CountdownTimer : MonoBehaviour
         countdownCanvas.SetActive(false);
         congratsCanvas.SetActive(true);
     }
+
+    public void GiveUpTimer()
+    {
+        // 1. Stop the math from ticking
+        isTimerRunning = false;
+
+        // // 2. Flip the phone back to Portrait
+        // Screen.orientation = ScreenOrientation.Portrait;
+
+        // // 3. Turn off the countdown screen
+        // countdownCanvas.SetActive(false);
+
+        // (Optional but recommended)
+        // If you want it to automatically re-open the setup screen, 
+        // you will need to add: public GameObject setupCanvas; to the top of your script
+        // and then uncomment the line below:
+        // setupCanvas.SetActive(true); 
+    }
 }

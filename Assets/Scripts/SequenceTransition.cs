@@ -57,14 +57,14 @@ public class SequenceTransition : MonoBehaviour
         landscapeCanvas.SetActive(false);
         portraitCanvas.SetActive(true);
 
-        // 6. FADE THE TRANSITION PANEL OUT (Reveal the new Portrait Canvas)
-        elapsedTime = 0f;
-        while (elapsedTime < fadeDuration)
-        {
-            elapsedTime += Time.deltaTime;
-            fadePanelGroup.alpha = Mathf.Lerp(1f, 0f, elapsedTime / fadeDuration);
-            yield return null;
-        }
+        // // 6. FADE THE TRANSITION PANEL OUT (Reveal the new Portrait Canvas)
+        // elapsedTime = 0f;
+        // while (elapsedTime < fadeDuration)
+        // {
+        //     elapsedTime += Time.deltaTime;
+        //     fadePanelGroup.alpha = Mathf.Lerp(1f, 0f, elapsedTime / fadeDuration);
+        //     yield return null;
+        // }
         
         fadePanelGroup.alpha = 0f;
         fadePanelGroup.gameObject.SetActive(false);
