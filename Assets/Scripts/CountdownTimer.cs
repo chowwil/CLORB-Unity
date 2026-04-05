@@ -22,6 +22,9 @@ public class CountdownTimer : MonoBehaviour
     // Called by your Setup screen
     public void BeginCountdown(int hours, int minutes)
     {
+        // 1. Force the screen sideways the moment the timer starts!
+        Screen.orientation = ScreenOrientation.LandscapeLeft;
+
         timeRemainingInSeconds = (hours * 3600f) + (minutes * 60f);
         isTimerRunning = true;
         UpdateDisplay();
@@ -74,8 +77,25 @@ public class CountdownTimer : MonoBehaviour
         }
     }
 
+    public void AddTime(int minutesToAdd)
+    {
+        // Only allow adding time if the timer is actually running
+        if (isTimerRunning)
+        {
+            // Convert the minutes to seconds and add it to the total
+            timeRemainingInSeconds += (minutesToAdd * 60f);
+            
+            // Instantly update the UI so the player sees the numbers jump up
+            UpdateDisplay();
+        }
+    }
+
     private void FinishTimer()
     {
+        // 2. Force the screen back upright the moment the timer hits zero!
+        Screen.orientation = ScreenOrientation.Portrait;
+
+        // 3. Swap the Canvases
         countdownCanvas.SetActive(false);
         congratsCanvas.SetActive(true);
     }
