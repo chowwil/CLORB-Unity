@@ -19,6 +19,9 @@ public class CountdownTimer : MonoBehaviour
     private float timeRemainingInSeconds;
     private bool isTimerRunning = false;
 
+    [Header("Clorb References")]
+    public ClorbBubble[] activeClorbs; // An array lets you stop multiple Clorbs at once!
+
     // Called by your Setup screen
     public void BeginCountdown(int hours, int minutes)
     {
@@ -102,19 +105,18 @@ public class CountdownTimer : MonoBehaviour
 
     public void GiveUpTimer()
     {
-        // 1. Stop the math from ticking
         isTimerRunning = false;
-
-        // // 2. Flip the phone back to Portrait
         // Screen.orientation = ScreenOrientation.Portrait;
 
-        // // 3. Turn off the countdown screen
-        // countdownCanvas.SetActive(false);
+        // Tell every Clorb in our list to stop talking!
+        foreach (ClorbBubble clorb in activeClorbs)
+        {
+            if (clorb != null) 
+            {
+                clorb.StopTalking();
+            }
+        }
 
-        // (Optional but recommended)
-        // If you want it to automatically re-open the setup screen, 
-        // you will need to add: public GameObject setupCanvas; to the top of your script
-        // and then uncomment the line below:
-        // setupCanvas.SetActive(true); 
+        // countdownCanvas.SetActive(false);
     }
 }
