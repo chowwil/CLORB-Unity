@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 93d6f2075c243433a8dec395bc8dd448
+guid: 0403e1c2f0bd747dea1b921795cd7056
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 839964171812724086
-    second: CLORB_Welcome_White_0
+      213: 4957314110388857326
+    second: Room_Options_Bar_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CLORB_Welcome_White_0
+      name: Room_Options_Bar_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 461
-        height: 542
+        width: 393
+        height: 183
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67dd3f4c6f628ab00800000000000000
-      internalID: 839964171812724086
+      spriteID: ee962cd1beaebc440800000000000000
+      internalID: 4957314110388857326
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CLORB_Welcome_White_0: 839964171812724086
+      Room_Options_Bar_0: 4957314110388857326
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
