@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 09e09def46707425f8a32d0879e08277
+guid: ed6c9210a02cb4af592fd64957c6b577
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3386591712693744070
-    second: Book_Icon_0
+      213: 588899017767075345
+    second: Todo_Bar_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Book_Icon_0
+      name: Todo_Bar_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 44
-        height: 45
+        width: 1100
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c1746248379ffe20800000000000000
-      internalID: 3386591712693744070
+      spriteID: 11e359a59803c2800800000000000000
+      internalID: 588899017767075345
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Book_Icon_0: 3386591712693744070
+      Todo_Bar_0: 588899017767075345
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

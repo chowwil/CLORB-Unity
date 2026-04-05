@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 29275f5a7f5ab4b0a88968bd72470ec8
+guid: 5d80acb4892e44f4ea00482293b98ec4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -602207061631730587
-    second: CLORB_Welcome_Background_0
+      213: 1320692370411241892
+    second: TrashIcon_0
+  - first:
+      213: 8243195420930901581
+    second: TrashIcon_1
+  - first:
+      213: 4915164443249587030
+    second: TrashIcon_2
+  - first:
+      213: 4815116257767384518
+    second: TrashIcon_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,23 +135,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CLORB_Welcome_Background_0
+      name: TrashIcon_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 393
-        height: 852
+        x: 36
+        y: 288
+        width: 30
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 56c753a3ed784a7f0800000000000000
-      internalID: -602207061631730587
+      spriteID: 4a14eeba6ba045210800000000000000
+      internalID: 1320692370411241892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashIcon_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 542
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4686be9f86b56270800000000000000
+      internalID: 8243195420930901581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashIcon_2
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 198
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653b58cf40c263440800000000000000
+      internalID: 4915164443249587030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrashIcon_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 181
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5ee6099bab2d240800000000000000
+      internalID: 4815116257767384518
       vertices: []
       indices: 
       edges: []
@@ -151,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 62bdf189d826248db857709b4f59c869
     internalID: 0
     vertices: []
     indices: 
@@ -159,9 +234,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      CLORB_Welcome_Background_0: -602207061631730587
+      TrashIcon_0: 1320692370411241892
+      TrashIcon_1: 8243195420930901581
+      TrashIcon_2: 4915164443249587030
+      TrashIcon_3: 4815116257767384518
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
