@@ -1894,8 +1894,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: meet clorb
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12c65bc8cf23f4253bbd122e758c4bda, type: 2}
-  m_sharedMaterial: {fileID: -1044535754915880511, guid: 12c65bc8cf23f4253bbd122e758c4bda, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b05acce5acf414d708e37f09e367fb79, type: 2}
+  m_sharedMaterial: {fileID: -5797333212007507426, guid: b05acce5acf414d708e37f09e367fb79, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
