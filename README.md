@@ -5,4 +5,4 @@ Deployed: https://clorb-house-multi.vercel.app
 
 <img width="500" height="500" alt="CLORB_Pink" src="https://github.com/user-attachments/assets/50c51e7e-ead1-4775-9594-0d82ae2898ef" />
 
-![CLORB_App-ezgif com-optimize](https://github.com/user-attachments/assets/847282b8-0139-4e98-a7ed-ff5c0422c929)
+![CLORB_App-ezgif com-resize](https://github.com/user-attachments/assets/498719fe-ebc7-4fc4-8598-ffe094e7f622)
